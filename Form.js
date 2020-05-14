@@ -16,7 +16,7 @@ class Form {
     title.position(displayWidth/2 - 50 , 0);
     this.input.position(displayWidth/2 - 20,displayHeight/2 - 80);
     this.button.position(displayWidth/2 + 30,displayHeight/2);
-    text = createElement('h2','Hi,Please Enter four players name to continue');
+    text = createElement('h2',' 5 Players are needed to Start the game');
     text.position(48,131);
 
       this.button.mousePressed(()=>{
